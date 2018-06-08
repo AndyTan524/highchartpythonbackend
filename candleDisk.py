@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 
 from matplotlib.dates import DateFormatter, WeekdayLocator, DayLocator, MONDAY,YEARLY
-from matplotlib.finance import quotes_historical_yahoo_ohlc, candlestick_ohlc,candlestick2_ochl,candlestick2_ohlc
+from mpl_finance import quotes_historical_yahoo_ohlc, candlestick_ohlc,candlestick2_ochl,candlestick2_ohlc
 import tushare as ts
 import os
 
