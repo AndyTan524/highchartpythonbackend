@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 
+import matplotlib
 import matplotlib.pyplot as plt
 
 from matplotlib.dates import DateFormatter, WeekdayLocator, DayLocator, MONDAY,YEARLY
