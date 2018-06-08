@@ -1,0 +1,5 @@
+.DS_Store
+/media
+/highchartpythonbackend/settings.py
+*.py[cod]
+*.$py.class
