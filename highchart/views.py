@@ -35,7 +35,7 @@ def kchartcomp(request):
     
     # For Test
 
-    query = 'http://192.168.1.134:8000/api/media/image/'+ company + '/'+ period + '/' + count + '/1.png'
+    query = 'http://47.75.138.128:8000/api/media/image/'+ company + '/'+ period + '/' + count + '/1.png'
     # print(query)
     # query = './media/image1/2.png'
     # query = 'image1/quotes_2017-12-29-14-20_2017-12-29-14-25.png'
