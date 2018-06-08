@@ -41,7 +41,7 @@ def plo(filename, open, low, high, close):
 	plt.setp(plt.gca().get_xticklabels(), rotation=45, horizontalalignment='right')
 
 	ax.grid(False)
-	plt.title(filename)
+	plt.title('Similar Chart')
 	#plt.show()
 
 	fig.set_size_inches(8,6)
