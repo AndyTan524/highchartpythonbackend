@@ -2,6 +2,8 @@
 # coding=utf-8
 
 import matplotlib
+matplotlib.use('Agg')
+
 import matplotlib.pyplot as plt
 
 from matplotlib.dates import DateFormatter, WeekdayLocator, DayLocator, MONDAY,YEARLY
@@ -9,7 +11,6 @@ from mpl_finance import candlestick2_ochl
 import tushare as ts
 import os
 
-matplotlib.use('Agg')
 
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
