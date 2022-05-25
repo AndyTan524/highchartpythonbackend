@@ -14,7 +14,7 @@ lxml==4.2.1
 matplotlib==2.2.2
 numpy==1.14.2
 pandas==0.22.0
-PyJWT==1.6.1
+PyJWT==2.4.0
 pyparsing==2.2.0
 python-dateutil==2.7.2
 pytz==2018.4
